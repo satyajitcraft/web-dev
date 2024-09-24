@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS SELECTORS</title>
+    <style>
+        /* element selector */
+        div {
+            background-color: lawngreen;
+        }
+
+        /* class selector */
+        .red {
+            background-color: rgb(243, 54, 117);
+        }
+
+        /* id selector */
+        #green {
+            background-color: rgb(226, 138, 31);
+        }
+
+        /* child selector */
+        div>p {
+            background-color: aqua;
+        }
+
+        /* descendent selector */
+        div p {
+            background-color: maroon;
+        }
+
+        /* universal selector */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* pseudo selector */
+        a:visited{
+            color: rgb(60, 98, 3)
+        }
+        a:link{
+            color:rgb(130, 76, 6);
+        }
+        :active{
+            background-color: ;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="red">
+        i m Div
+        <p>
+            i m a paragraph
+        </p>
+
+    </div>
+    <div id="green" }>
+        i m another div
+        <article>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex voluptatum officia a vel, excepturi eius
+                saepe mollitia nesciunt debitis ipsa. Ea, porro corporis?
+            </p>
+        </article>
+    </div>
+    <div>
+        i m third div
+    </div>
+    <div>
+        i m fouth div
+    </div>
+    <ol>
+        <li>
+            <a href="http://www.quora.com">Quora</a>
+        </li>
+        <li>
+            <a href="http://www.thehindu.com">The Hindu</a>
+
+        </li>
+    </ol>
+</body>
+
+</html>
